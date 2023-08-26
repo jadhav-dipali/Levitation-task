@@ -1,0 +1,22 @@
+table{
+    width: 80%;
+}
+table, td, th,tr, thead, tbody {
+border: 1px solid #664de5;
+border-collapse: collapse;
+}
+tr , td, th{
+    padding: 6px;
+}
+td , th{
+    width: 100px;
+}
+.table-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+th{
+    color: #664de5;;
+}
