@@ -28,7 +28,7 @@ export default function LoginUser(){
        setPassErr(true)
     }else{
         setLoder(true)
-        fetch("http://localhost:4000/user/login",{
+        fetch("https://levitation-task-backend.onrender.com/user/login",{
             method:"POST",
             headers:{
              "content-type":"application/json"
