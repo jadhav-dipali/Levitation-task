@@ -1,0 +1,92 @@
+#signup-container{
+    height: auto;
+    width: 87%;
+    margin: 30px;
+    padding-top: 20px;
+    border: 4px solid  #664de5;;
+    border-radius: 20px;
+    box-shadow: 3px 10px 10px gray;
+    
+}
+.signupform-input{
+height: 40px;
+width: 90%;
+margin: 10px 20px 7px 20px ;
+font-size: medium;
+font-weight: bold;
+}
+#signup-btn{
+height: 40px;
+width: 120px;
+background-color:#664de5;;
+color: #fff;
+border: 1px solid #664de5;;
+font-size: large;
+font-weight: bold;
+border-radius: 10px;
+}
+#btn-container-signup{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#form-name{
+    text-align: center;
+    color: #664de5;;
+    text-decoration: underline;
+    text-shadow: 1px 2px 2px black;
+    font-size: 30px;
+}
+#valid-user{
+    margin-left: 40px;
+}
+#color-change{
+    color: rgb(84, 84, 247);
+    text-decoration: underline;
+    font-size: large;
+}
+.err{
+    height: 26px;
+    width: 90%;
+    border-color: red;
+    margin: 10px 20px 7px 20px ;
+    font-size: medium;
+    font-weight: bold;
+    color: red;
+}
+.err.focus{
+    outline: 1px red;
+}
+#errText{
+    color: red;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#main-container-of-form{
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 30px ;
+}
+@keyframes loder {
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+#loderabc{
+    height: 20px;
+    width: 20px;
+    margin-left: 40px;
+    border-radius: 50%;
+    border: 4px solid aliceblue;
+    border-top: 4px solid   #664de5;;
+    animation: loder 1s ;
+    animation-iteration-count: infinite;
+    box-shadow: 1px 1px 5px wheat;
+}
