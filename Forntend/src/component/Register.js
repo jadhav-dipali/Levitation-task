@@ -40,7 +40,7 @@ export default function Register(){
         setConfirmPassErr(true)
      }else{
       setLoder(true)
-      fetch("http://localhost:4000/user/register",{
+      fetch("https://levitation-task-backend.onrender.com/user/register",{
            method:"POST",
            headers:{
             "content-type":"application/json"

@@ -49,7 +49,7 @@ export default function Form1(){
      formdata.append("file" , userInput.file);
      console.log(formdata);
   
-    fetch("http://localhost:4000/userInfo",{
+    fetch("https://levitation-task-backend.onrender.com/userInfo",{
          method:"POST",
          headers:{
           "authorization":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGU4ZTE0MDE0NThkNmMyNGY3ZWViNTUiLCJpYXQiOjE2OTMwMjk5MzV9.QThjt_YW8q2skbWgggKTY2uGLEjuzpZeIdKKmLyh5Kw",

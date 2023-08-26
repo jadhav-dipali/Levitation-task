@@ -14,7 +14,7 @@ export default function Table() {
         if( ! localStorage.getItem("user-token")){
             navigate("/") 
         }
-        fetch("http://localhost:4000/userInfo")
+        fetch("https://levitation-task-backend.onrender.com/userInfo")
             .then(res => res.json())
             .then(res => {
                 const newData = filter ? res.data.reverse() : res.data;
